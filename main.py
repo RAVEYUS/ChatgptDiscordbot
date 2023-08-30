@@ -39,6 +39,6 @@ async def on_message(interaction: nextcord.Interaction, text):
 
 
     
-bot.run("MTEyODYyMDI4NTcxMzcxNTI3MA.GCsVL4.qPJTabzzEo3LdFob4kT6PNoB3WVP6jY_c91qIc")
+bot.run("insert_token")
 
 
