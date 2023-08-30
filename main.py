@@ -1,17 +1,16 @@
-appid = 1128620285713715270
-#public_key=cc2477dd93ef32fc5f870feb50f918ab1a0a76850222e75fc619622d868c4026
+
 import nextcord
 import os
 import openai
 import asyncio
 from nextcord.ext import commands
 
-token="MTEyODYyMDI4NTcxMzcxNTI3MA.GCsVL4.qPJTabzzEo3LdFob4kT6PNoB3WVP6jY_c91qIc"
+
 intents = nextcord.Intents.all()
 client = nextcord.Client(intents=intents)
 bot = commands.Bot(command_prefix="/", intents=intents)
 
-openai.api_key = "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"
+openai.api_key = ""
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user}')
